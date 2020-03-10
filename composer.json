@@ -1,0 +1,30 @@
+{
+    "name": "mojoblanco/artisan-start",
+    "description": "A Laravel package for starting your application in a convenient way",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Olawale",
+            "email": "mojoblanco@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mojoblanco\\ArtisanStart\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mojoblanco\\ArtisanStart\\ArtisanStartServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
